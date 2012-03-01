@@ -34,7 +34,7 @@ describe PagesController do
   end
 
   describe "GET 'about'" do
-    it "should be successful", :chapter => "true" do
+    it "should be successful", :chapter3 => "true" do
       get 'about'
       response.should be_success
     end
